@@ -57,28 +57,31 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	width: 330px;
 	height: 270px;
 	background-color: rgb(210, 240, 167);
+	
 }
 
 .header_left {
 	display: flex;
+	align-items: center;
 	font-weight: 700;
 	margin-left: 50px;
-	
 }
 
-.header_left_icon {
-
+.header_left_text_block {
+	display: flex;
+	align-items: center;
+	height: 30px;
+	width: 330px;
+	background: linear-gradient(to right, rgb(183, 183, 183), rgb(207, 207, 207));
 }
 
 .header_left_text {
-	background: linear-gradient(to right, rgb(183, 183, 183), rgb(207, 207, 207));
-	width: 280px;
-	height: 30px;
+	margin-bottom: 5px;
+	margin-left: 10px;
 }
 
 .contacts_block {
 	margin-bottom: 10px;
-	
 }
 
 .contact {
@@ -87,12 +90,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	align-items: center;
 }
 
-.contact_icon {
-
-}
-
 .contact_text {
-	margin-left: 20px;
+	margin-left: 10px;
+	margin-bottom: 4px;
 }
 
 .skills_block {
@@ -115,7 +115,7 @@ border-radius: 100%;
 
 .skill_text {
 margin-left: 10px;
-
+margin-bottom: 4px;
 }
 
 .language_block {
@@ -138,8 +138,8 @@ margin-left: 10px;
 
 .language_text {
 	margin-left: 10px;
+	margin-bottom: 4px;
 }
-
 
 .right {
 	display: flex;
@@ -177,11 +177,19 @@ margin-bottom: 30px;
 	margin-left: 50px;
 }
 
-.header_right_text {
-	background: linear-gradient(to right, rgb(183, 183, 183), rgb(207, 207, 207));
-	width: 614px;
-	height: 30px;
+.header_right_text_block {
+	display: flex;
+	align-items: center;
+  margin-left: 30px;
 	margin-bottom: 20px;
+	height: 30px;
+	width: 629px;
+	background: linear-gradient(to right, rgb(183, 183, 183), rgb(207, 207, 207));
+}
+
+.header_right_text {
+	margin-bottom: 5px;
+	margin-left: 10px;
 }
 
 .experience_block {
@@ -234,3 +242,4 @@ margin-bottom: 5px;
 	margin-left: 80px;
 	font-size: 16px;
 }
+

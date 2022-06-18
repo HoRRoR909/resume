@@ -47,24 +47,23 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
-	align-items: flex-end;
+	align-items: center;
 	background: linear-gradient(to right, rgb(231, 231, 231), rgb(235, 235, 235));
 	width: 330px;
 	height: 1440px;
 }
 
 .photo {
-	width: 330px;
-	height: 270px;
-	background-color: rgb(210, 240, 167);
-	
+	width: 224px;
+	border-radius: 100%;
+	margin: 10px 0 10px 0;
 }
 
 .header_left {
 	display: flex;
 	align-items: center;
 	font-weight: 700;
-	margin-left: 50px;
+	/* margin-left: 50px; */
 }
 
 .header_left_text_block {
@@ -231,11 +230,11 @@ margin-bottom: 10px;
 .span_b {
 font-weight: 700;
 font-size: 20px;
-margin-bottom: 5px;
+margin-bottom: 10px;
 }
 
 .span_n {
-	margin-bottom: 5px;
+	margin-bottom: 10px;
 }
 
 .about {
